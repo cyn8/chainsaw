@@ -2,7 +2,6 @@ version: 0.1
 dvSECRETS:
  custom_include_regex:
  - CustomRule: 'rocketscience'
- - InvalidRegex: '['
  - Hardcoded URL: '(https?):\/\/[-A-Za-z0-9\+&@#\/%?=~_|!:,.;]*[-A-Za-z0-9\+&@#\/%=~_|]'
  custom_ignore_files_regex:
  - TestConfig: '(?i)(ignored\.php)'
